@@ -6,4 +6,4 @@ java -jar rlt_db2wlpt_<build-timestamp>.jar
 ```
 
 The solution design is depictred in the diagram bellow:
-![Design](workload_processing_system_design.svg)
+![Design](workload_processing_system_design.png)
