@@ -9,5 +9,8 @@ sha256sum for rlt_db2wlpt_minimal_2019_04_22_00_19_17_215.jar is: 0938416a6e835b
 The solution design is depictred in the diagram bellow:
 ![Design](workload_processing_system_design.png)
 
+Command: db2_evmon_wlp implementation architecture
 ![db2_evmon_wlp implementation architecture](db2_evmon_etl_architecture.png)
-![db2_evmon_wlp implementation MT architecture](db2_evmon_etl_architecture.png)
+
+Command: db2_evmon_wlp implementation multi-threaded architecture
+![db2_evmon_wlp implementation MT architecture](db2_evmon_etl_architecture_MT_insert.png)
