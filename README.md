@@ -4,7 +4,7 @@ To install simply download, check the sha512sum for integrity (optional) then ex
 ```shell
 java -jar rlt_db2wlpt_<build-timestamp>.jar
 ```
-sha256sum for rlt_db2wlpt_minimal_2019_04_22_00_19_17_215.jar is: 0938416a6e835b33bda877800df1605ced619006955a888b8baa89731e9f2e8e
+sha256sum for rlt_db2wlpt_minimal_2019_04_26_16_41_18_727.jar is: 74cde919f992bf727eb53b41b755a4e26fab98e1f7fd71fb9e3c4434f5856499  
 
 The solution design is depictred in the diagram bellow:
 ![Design](workload_processing_system_design.png)
