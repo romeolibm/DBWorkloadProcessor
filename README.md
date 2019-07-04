@@ -8,6 +8,8 @@ sha256sum for rlt_db2wlpt_minimal_2019_05_22_03_22_12_152.jar is: e4998277c10892
 
 sha256sum for rlt_db2wlpt_minimal_2019_05_24_17_16_44_263.jar is: 16567130a605ddce63b243c527d9a5738fa089a1810d0622188077d5b448e41f
 
+sha256sum for rlt_db2wlpt_minimal_2019_07_03_22_30_03_765.jar is: 39cc144b6fd802edd100e94f0e03e40ad349ed710db44183f53afef67d72a630
+
 The solution design is depictred in the diagram bellow:
 ![Design](workload_processing_system_design.png)
 
