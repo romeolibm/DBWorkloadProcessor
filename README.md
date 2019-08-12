@@ -4,11 +4,21 @@ To install simply download, check the sha512sum for integrity (optional) then ex
 ```shell
 java -jar rlt_db2wlpt_<build-timestamp>.jar
 
-sha256sum is 861f0559e69340885166ee1580ae0a717a2b711b225bf9e3fdc3b54304c5d9cc 
- for rlt_db2wlpt_minimal_2019_08_08_14_16_22_831.jar
+Each build jar contains its own installer as well as the full source code bundled inside of it.
 
-sha256sum is bc18ddac0f280bd58e1e6b1ffa5cecfaa04f522a822a1ed496c62559fe7dd84c 
- for rlt_db2wlpt_minimal_2019_08_12_00_21_20_081.jar
+This is done on propose as "open source" should always allow you to trace a binary back to the
+source code it was built from. In this case the source is right there are your fingertips
+bundled along with the binary implementation.
+Because of this strategy the classic git repository is a not used as expected and I'll get back to this
+problem later as time permits.
+
+The builds have a life cycle, are first provided as "beta" in the betaBuild folder, those builds
+are not verified an a UAT type of environment or by use in a production env for at least one month.
+Once a build is declared stable it will be promoted to stable status by moving the file into the 
+stableBuild folder (a git rename operation).
+If the build is not validated it will simply be removed from the betaBuild folder.
+When a stable build is rescinded it will be moved to buildHistory folder (git mv operation).
+
 ```
 The solution design is depictred in the diagram bellow:
 ![Design](workload_processing_system_design.png)
