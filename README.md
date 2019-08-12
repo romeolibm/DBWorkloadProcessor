@@ -3,6 +3,7 @@ A set of tools used to cature, analyze workloads, create and execute workload te
 To install simply download, check the sha512sum for integrity (optional) then execute
 ```shell
 java -jar rlt_db2wlpt_<build-timestamp>.jar
+```
 
 Each build jar contains its own installer as well as the full source code bundled inside of it.
 
@@ -19,7 +20,6 @@ stableBuild folder (a git rename operation).
 If the build is not validated it will simply be removed from the betaBuild folder.
 When a stable build is rescinded it will be moved to buildHistory folder (git mv operation).
 
-```
 The solution design is depictred in the diagram bellow:
 ![Design](workload_processing_system_design.png)
 
