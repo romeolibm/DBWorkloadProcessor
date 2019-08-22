@@ -1,5 +1,4 @@
 This folder contains beta build (testing in progress) provided for UAT phase before being pushed to the stableBuild folder
 
-sha256sum is 668bd672765f8531673e8321322ef7242ce9e66d73f1b506dec775cc05767a5d 
- for file rlt_db2wlpt_minimal_2019_08_15_10_32_38_088.jar
+ed998eddc5de6346b716a1d711916ff21a7c0c2d7637c749303cf0a9df9a8951  rlt_db2wlpt_minimal_2019_08_22_11_13_37_802.jar
 
