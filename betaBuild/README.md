@@ -1,4 +1,3 @@
 This folder contains beta build (testing in progress) provided for UAT phase before being pushed to the stableBuild folder
 
-ed998eddc5de6346b716a1d711916ff21a7c0c2d7637c749303cf0a9df9a8951  rlt_db2wlpt_minimal_2019_08_22_11_13_37_802.jar
-
+0319d2b461868c4982e0c4f3904de0f9c8db0b2062c2e0c23b01c6e36f010a9b  rlt_db2wlpt_minimal_2019_08_22_21_59_58_245.jar
