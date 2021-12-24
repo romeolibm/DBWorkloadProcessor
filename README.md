@@ -1,4 +1,6 @@
 # DBWorkloadProcessor
+As of 2021-12-24 this logic does not use log4j (Java native logging only) so it is not exposed to CVE-2021-44228.
+
 A set of tools used to cature, analyze workloads, create and execute workload tests for DB2 databases or RDBMS systems in general
 To install simply download, check the sha512sum for integrity (optional) then execute
 ```shell
